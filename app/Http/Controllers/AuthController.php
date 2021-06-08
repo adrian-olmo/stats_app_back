@@ -105,7 +105,7 @@ class AuthController extends Controller
     {
         $userLogged = $request->user()->id;
 
-        $data = Role::where('user_id', $userLogged);
+        $data = Role::where('user_id', $userLogged)->first();
         dd($data);
         return response()->json($data, 200);
     }

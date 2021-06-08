@@ -118,5 +118,7 @@ Route::group(
     function () {
         Route::get('/', [MatchesController::class, 'index']);
         Route::get('/new-match', [MatchesController::class, 'store']);
+        Route::get('/change-match/{id}', [MatchesController::class, 'update']);
+        Route::get('/match/{id}', [MatchesController::class, 'destroy']);
     }
 );

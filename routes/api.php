@@ -107,6 +107,7 @@ Route::group(
         Route::post('/new-player', [PlayerController::class, 'store']);
         Route::patch('/player/{id}', [PlayerController::class, 'update']);
         Route::delete('/player/{id}', [PlayerController::class, 'destroy']);
+        Route::get('/player/{id}', [PlayerController::class, 'findPlayer']);
     }
 );
 

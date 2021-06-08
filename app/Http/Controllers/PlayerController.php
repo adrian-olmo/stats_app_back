@@ -64,6 +64,12 @@ class PlayerController extends Controller
         return response()->json(['message' => "Delete Succefuly"], 202);
     }
 
+    public function findPlayer($id)
+    {
+        $playerFind = Players::findOrFail($id);
+        return response()->json($playerFind, 202);
+    }
+
     //Funciones Propias
     public function playerName(Request $request)
     {

@@ -104,8 +104,9 @@ class AuthController extends Controller
     public function getRole(Request $request)
     {
         $userLogged = $request->user()->id;
-        dd($userLogged);
+
         $data = Role::where('user_id', $userLogged);
+        dd($data);
         return response()->json($data, 200);
     }
 }

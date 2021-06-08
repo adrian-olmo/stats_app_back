@@ -100,4 +100,11 @@ class AuthController extends Controller
             'message' => 'Successfully logged out'
         ]);
     }
+
+    public function getRole(Request $request, $id)
+    {
+        $userLogged = $request->user()->$id;
+        $data = Role::where('user_id', $userLogged);
+        return response()->json($data, 200);
+    }
 }

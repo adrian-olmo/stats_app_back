@@ -80,4 +80,10 @@ class MatchesController extends Controller
 
         return response()->json(['message' => 'Delete Succesfully']);
     }
+
+    public function findMatch($id)
+    {
+        $matchFind = Matches::findOrFail($id);
+        return response()->json($matchFind, 202);
+    }
 }

@@ -84,6 +84,7 @@ class MatchesController extends Controller
     public function findMatch($id)
     {
         $matchFind = Matches::findOrFail($id);
-        return response()->json($matchFind, 202);
+        $dataMatch = Matches::where('id', $matchFind)->get();
+        return response()->json($dataMatch, 202);
     }
 }

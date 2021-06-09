@@ -125,6 +125,6 @@ Route::group(
         Route::post('/new-match', [MatchesController::class, 'store']);
         Route::patch('/change-match/{id}', [MatchesController::class, 'update']);
         Route::delete('/match/{id}', [MatchesController::class, 'destroy']);
-        Route::delete('/match/{id}', [MatchesController::class, 'findMatch']);
+        Route::get('/match/{id}', [MatchesController::class, 'findMatch']);
     }
 );

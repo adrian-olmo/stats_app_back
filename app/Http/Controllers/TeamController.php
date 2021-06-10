@@ -69,7 +69,7 @@ class TeamController extends Controller
     {
         $playerTeamId = $request->id;
         Players::where('team_id', $playerTeamId)->delete();
-        Matches::where('local_team', $playerTeamId)->orWhere('visitor_team', $playerTeamId);
+        Matches::where('local_team', $playerTeamId)->orWhere('visitor_team', $playerTeamId)->delete();
         $teamData = Teams::destroy($playerTeamId);
 
         if (!$teamData) {

@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Players extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'age', 'matches', 'debut', 'club', 'team_id', 'position_id'];
+    protected $fillable = ['name', 'age', 'matches', 'debut', 'club', 'photo', 'team_id', 'position_id'];
     protected $hidden = ['created_at', 'updated_at'];
 
     public function team()

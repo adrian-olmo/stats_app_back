@@ -19,6 +19,7 @@ class CreatePlayersTable extends Migration
             $table->integer('age');
             $table->integer('matches');
             $table->date('debut');
+            $table->string('photo');
 
             $table->unsignedBigInteger('team_id');
             $table->foreign('team_id')->references('id')->on('teams');

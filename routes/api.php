@@ -142,6 +142,6 @@ Route::group(
     ],
     function () {
         Route::get('/user/{id}', [UserController::class, 'show']);
-        Route::patch('/profile/{id}', [UserController::class, 'update']);
+        Route::patch('/profile', [UserController::class, 'update']);
     }
 );

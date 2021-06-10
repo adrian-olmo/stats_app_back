@@ -806,5 +806,1213 @@
         "debut": "2021-03-25",
         "team_id": "4",
         "position_id": "10"
+    },
+    {
+        "name": "Anthony Lopes",
+        "age": "30",
+        "matches": "13",
+        "debut": "2015-03-31",
+        "team_id": "5",
+        "position_id": "1"
+    },
+    {
+        "name": "Rui Silva",
+        "age": "27",
+        "matches": "1",
+        "debut": "2021-06-09",
+        "team_id": "5",
+        "position_id": "1"
+    },
+    {
+        "name": "Rui Patrício",
+        "age": "33",
+        "matches": "93",
+        "debut": "2010-11-17",
+        "team_id": "5",
+        "position_id": "1"
+    },
+    {
+        "name": "Rúben Dias",
+        "age": "24",
+        "matches": "28",
+        "debut": "2018-05-28",
+        "team_id": "5",
+        "position_id": "2"
+    },
+    {
+        "name": "José Fonte",
+        "age": "37",
+        "matches": "46",
+        "debut": "2014-11-18",
+        "team_id": "5",
+        "position_id": "2"
+    },
+    {
+        "name": "Pepe",
+        "age": "38",
+        "matches": "115",
+        "debut": "2007-11-21",
+        "team_id": "5",
+        "position_id": "2"
+    },
+    {
+        "name": "Raphaël Guerreiro",
+        "age": "27",
+        "matches": "46",
+        "debut": "2014-11-14",
+        "team_id": "5",
+        "position_id": "3"
+    },
+    {
+        "name": "Nuno Mendes",
+        "age": "18",
+        "matches": "5",
+        "debut": "2021-03-24",
+        "team_id": "5",
+        "position_id": "3"
+    },
+    {
+        "name": "João Cancelo",
+        "age": "27",
+        "matches": "27",
+        "debut": "2016-09-01",
+        "team_id": "5",
+        "position_id": "4"
+    },
+    {
+        "name": "Nélson Semedo",
+        "age": "27",
+        "matches": "18",
+        "debut": "2015-10-11",
+        "team_id": "5",
+        "position_id": "4"
+    },
+    {
+        "name": "Rúben Neves",
+        "age": "24",
+        "matches": "21",
+        "debut": "2015-11-14",
+        "team_id": "5",
+        "position_id": "5"
+    },
+    {
+        "name": "Danilo Pereira",
+        "age": "29",
+        "matches": "47",
+        "debut": "2015-03-31",
+        "team_id": "5",
+        "position_id": "5"
+    },
+    {
+        "name": "João Palhinha",
+        "age": "25",
+        "matches": "4",
+        "debut": "2021-03-24",
+        "team_id": "5",
+        "position_id": "5"
+    },
+    {
+        "name": "William Carvalho",
+        "age": "29",
+        "matches": "66",
+        "debut": "2013-11-19",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "Renato Sanches",
+        "age": "23",
+        "matches": "26",
+        "debut": "2016-03-25",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "Sérgio Oliveira",
+        "age": "29",
+        "matches": "11",
+        "debut": "2018-09-06",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "João Moutinho",
+        "age": "34",
+        "matches": "131",
+        "debut": "2005-08-17",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "Rafa Silva",
+        "age": "28",
+        "matches": "21",
+        "debut": "2014-03-05",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "Bruno Fernandes",
+        "age": "26",
+        "matches": "29",
+        "debut": "2017-11-10",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "Bernardo Silva",
+        "age": "26",
+        "matches": "55",
+        "debut": "2015-03-31",
+        "team_id": "5",
+        "position_id": "6"
+    },
+    {
+        "name": "Diogo Jota",
+        "age": "24",
+        "matches": "14",
+        "debut": "2019-11-14",
+        "team_id": "5",
+        "position_id": "7"
+    },
+    {
+        "name": "Gonçalo Guedes",
+        "age": "24",
+        "matches": "23",
+        "debut": "2015-11-14",
+        "team_id": "5",
+        "position_id": "7"
+    },
+    {
+        "name": "Pedro Gonçalves",
+        "age": "22",
+        "matches": "2",
+        "debut": "2021-06-04",
+        "team_id": "5",
+        "position_id": "8"
+    },
+    {
+        "name": "João Félix",
+        "age": "21",
+        "matches": "17",
+        "debut": "2019-06-05",
+        "team_id": "5",
+        "position_id": "9"
+    },
+    {
+        "name": "Cristiano Ronaldo",
+        "age": "36",
+        "matches": "175",
+        "debut": "2003-08-20",
+        "team_id": "5",
+        "position_id": "10"
+    },
+    {
+        "name": "André Silva",
+        "age": "25",
+        "matches": "39",
+        "debut": "2016-09-01",
+        "team_id": "5",
+        "position_id": "10"
+    },
+    {
+        "name": "Unai Simón",
+        "age": "23",
+        "matches": "7",
+        "debut": "2020-11-14",
+        "team_id": "6",
+        "position_id": "1"
+    },
+    {
+        "name": "David de Gea",
+        "age": "30",
+        "matches": "45",
+        "debut": "2014-06-07",
+        "team_id": "6",
+        "position_id": "1"
+    },
+    {
+        "name": "Pau Torres",
+        "age": "24",
+        "matches": "8",
+        "debut": "2019-11-15",
+        "team_id": "6",
+        "position_id": "2"
+    },
+    {
+        "name": "Aymeric Laporte",
+        "age": "27",
+        "matches": "1",
+        "debut": "2021-06-04",
+        "team_id": "6",
+        "position_id": "2"
+    },
+    {
+        "name": "Diego Llorente",
+        "age": "27",
+        "matches": "8",
+        "debut": "2016-05-29",
+        "team_id": "6",
+        "position_id": "2"
+    },
+    {
+        "name": "Eric García",
+        "age": "20",
+        "matches": "8",
+        "debut": "2020-09-06",
+        "team_id": "6",
+        "position_id": "2"
+    },
+    {
+        "name": "José Gayà",
+        "age": "26",
+        "matches": "14",
+        "debut": "2018-09-11",
+        "team_id": "6",
+        "position_id": "3"
+    },
+    {
+        "name": "Jordi Alba",
+        "age": "32",
+        "matches": "72",
+        "debut": "2011-10-11",
+        "team_id": "6",
+        "position_id": "3"
+    },
+    {
+        "name": "César Azpilicueta",
+        "age": "31",
+        "matches": "25",
+        "debut": "2013-02-06",
+        "team_id": "6",
+        "position_id": "4"
+    },
+    {
+        "name": "Rodri",
+        "age": "24",
+        "matches": "20",
+        "debut": "2018-03-23",
+        "team_id": "6",
+        "position_id": "5"
+    },
+    {
+        "name": "Sergio Busquets",
+        "age": "32",
+        "matches": "123",
+        "debut": "2009-04-01",
+        "team_id": "6",
+        "position_id": "5"
+    },
+    {
+        "name": "Marcos Llorente",
+        "age": "26",
+        "matches": "5",
+        "debut": "2020-11-11",
+        "team_id": "6",
+        "position_id": "5"
+    },
+    {
+        "name": "Koke",
+        "age": "29",
+        "matches": "50",
+        "debut": "2013-08-14",
+        "team_id": "6",
+        "position_id": "5"
+    },
+    {
+        "name": "Fabián Ruiz",
+        "age": "25",
+        "matches": "12",
+        "debut": "2019-06-07",
+        "team_id": "6",
+        "position_id": "5"
+    },
+    {
+        "name": "Thiago",
+        "age": "30",
+        "matches": "42",
+        "debut": "2011-08-10",
+        "team_id": "6",
+        "position_id": "5"
+    },
+    {
+        "name": "Pedri",
+        "age": "18",
+        "matches": "4",
+        "debut": "2021-03-25",
+        "team_id": "6",
+        "position_id": "6"
+    },
+    {
+        "name": "Dani Olmo",
+        "age": "23",
+        "matches": "11",
+        "debut": "2019-11-15",
+        "team_id": "6",
+        "position_id": "6"
+    },
+    {
+        "name": "Mikel Oyarzabal",
+        "age": "24",
+        "matches": "13",
+        "debut": "2016-05-29",
+        "team_id": "6",
+        "position_id": "7"
+    },
+    {
+        "name": "Ferran Torres",
+        "age": "21",
+        "matches": "11",
+        "debut": "2020-09-03",
+        "team_id": "6",
+        "position_id": "8"
+    },
+    {
+        "name": "Adama Traoré",
+        "age": "25",
+        "matches": "5",
+        "debut": "2020-10-07",
+        "team_id": "6",
+        "position_id": "8"
+    },
+    {
+        "name": "Pablo Sarabia",
+        "age": "29",
+        "matches": "4",
+        "debut": "2019-09-05",
+        "team_id": "6",
+        "position_id": "8"
+    },
+    {
+        "name": "Álvaro Morata",
+        "age": "28",
+        "matches": "40",
+        "debut": "2014-11-15",
+        "team_id": "6",
+        "position_id": "10"
+    },
+    {
+        "name": "Gerard Moreno",
+        "age": "29",
+        "matches": "11",
+        "debut": "2019-10-15",
+        "team_id": "6",
+        "position_id": "10"
+    },
+    {
+        "name": "Gianluigi Donnarumma",
+        "age": "22",
+        "matches": "26",
+        "debut": "2016-09-01",
+        "team_id": "7",
+        "position_id": "1"
+    },
+    {
+        "name": "Alex Meret",
+        "age": "24",
+        "matches": "2",
+        "debut": "2019-11-18",
+        "team_id": "7",
+        "position_id": "1"
+    },
+    {
+        "name": "Salvatore Sirigu",
+        "age": "34",
+        "matches": "26",
+        "debut": "2010-08-10",
+        "team_id": "7",
+        "position_id": "1"
+    },
+    {
+        "name": "Alessandro Bastoni",
+        "age": "22",
+        "matches": "5",
+        "debut": "2020-11-11",
+        "team_id": "7",
+        "position_id": "2"
+    },
+    {
+        "name": "Rafael Tolói",
+        "age": "30",
+        "matches": "3",
+        "debut": "2021-03-31",
+        "team_id": "7",
+        "position_id": "2"
+    },
+    {
+        "name": "Francesco Acerbi",
+        "age": "33",
+        "matches": "14",
+        "debut": "2014-11-18",
+        "team_id": "7",
+        "position_id": "2"
+    },
+    {
+        "name": "Leonardo Bonucci",
+        "age": "34",
+        "matches": "102",
+        "debut": "2010-03-03",
+        "team_id": "7",
+        "position_id": "2"
+    },
+    {
+        "name": "Giorgio Chiellini",
+        "age": "36",
+        "matches": "107",
+        "debut": "2004-11-17",
+        "team_id": "7",
+        "position_id": "2"
+    },
+    {
+        "name": "Leonardo Spinazzol",
+        "age": "28",
+        "matches": "14",
+        "debut": "2017-03-28",
+        "team_id": "7",
+        "position_id": "3"
+    },
+    {
+        "name": "Emerson",
+        "age": "26",
+        "matches": "15",
+        "debut": "2018-09-10",
+        "team_id": "7",
+        "position_id": "3"
+    },
+    {
+        "name": "Giovanni Di Lorenzo",
+        "age": "27",
+        "matches": "7",
+        "debut": "2019-10-15",
+        "team_id": "7",
+        "position_id": "4"
+    },
+    {
+        "name": "Alessandro Florenzi",
+        "age": "30",
+        "matches": "43",
+        "debut": "2012-11-14",
+        "team_id": "7",
+        "position_id": "4"
+    },
+    {
+        "name": "Jorginho",
+        "age": "29",
+        "matches": "28",
+        "debut": "2016-03-24",
+        "team_id": "7",
+        "position_id": "5"
+    },
+    {
+        "name": "Manuel Locatelli",
+        "age": "23",
+        "matches": "10",
+        "debut": "2020-09-07",
+        "team_id": "7",
+        "position_id": "5"
+    },
+    {
+        "name": "Nicolò Barella",
+        "age": "24",
+        "matches": "23",
+        "debut": "2018-10-10",
+        "team_id": "7",
+        "position_id": "5"
+    },
+    {
+        "name": "Marco Verratti",
+        "age": "28",
+        "matches": "40",
+        "debut": "2012-08-15",
+        "team_id": "7",
+        "position_id": "5"
+    },
+    {
+        "name": "Gaetano Castrovilli",
+        "age": "24",
+        "matches": "2",
+        "debut": "2019-11-15",
+        "team_id": "7",
+        "position_id": "5"
+    },
+    {
+        "name": "Bryan Cristante",
+        "age": "26",
+        "matches": "11",
+        "debut": "2017-10-06",
+        "team_id": "7",
+        "position_id": "5"
+    },
+    {
+        "name": "Matteo Pessina",
+        "age": "24",
+        "matches": "5",
+        "debut": "2020-11-11",
+        "team_id": "7",
+        "position_id": "6"
+    },
+    {
+        "name": "Lorenzo Insigne",
+        "age": "30",
+        "matches": "41",
+        "debut": "2012-09-11",
+        "team_id": "7",
+        "position_id": "7"
+    },
+    {
+        "name": "Federico Chiesa",
+        "age": "23",
+        "matches": "25",
+        "debut": "2018-03-23",
+        "team_id": "7",
+        "position_id": "8"
+    },
+    {
+        "name": "Domenico Berardi",
+        "age": "26",
+        "matches": "11",
+        "debut": "2018-06-01",
+        "team_id": "7",
+        "position_id": "8"
+    },
+    {
+        "name": "Federico Bernardeschi",
+        "age": "27",
+        "matches": "30",
+        "debut": "2016-03-24",
+        "team_id": "7",
+        "position_id": "8"
+    },
+    {
+        "name": "Ciro Immobile",
+        "age": "31",
+        "matches": "46",
+        "debut": "2014-03-05",
+        "team_id": "7",
+        "position_id": "10"
+    },
+    {
+        "name": "Andrea Belotti",
+        "age": "27",
+        "matches": "33",
+        "debut": "2016-09-01",
+        "team_id": "7",
+        "position_id": "10"
+    },
+    {
+        "name": "Giacomo Raspadori",
+        "age": "21",
+        "matches": "1",
+        "debut": "2021-06-04",
+        "team_id": "7",
+        "position_id": "10"
+    },
+    {
+        "name": "Emiliano Martínez",
+        "age": "28",
+        "matches": "1",
+        "debut": "2021-06-04",
+        "team_id": "8",
+        "position_id": "1"
+    },
+    {
+        "name": "Juan Musso",
+        "age": "27",
+        "matches": "1",
+        "debut": "2019-03-26",
+        "team_id": "8",
+        "position_id": "1"
+    },
+    {
+        "name": "Agustín Marchesín",
+        "age": "33",
+        "matches": "7",
+        "debut": "2011-03-16",
+        "team_id": "8",
+        "position_id": "1"
+    },
+    {
+        "name": "Cristian Romero",
+        "age": "23",
+        "matches": "1",
+        "debut": "2021-06-04",
+        "team_id": "8",
+        "position_id": "2"
+    },
+    {
+        "name": "Lisandro Martínez",
+        "age": "23",
+        "matches": "2",
+        "debut": "2019-03-22",
+        "team_id": "8",
+        "position_id": "2"
+    },
+    {
+        "name": "Juan Foyth",
+        "age": "23",
+        "matches": "12",
+        "debut": "2018-11-17",
+        "team_id": "8",
+        "position_id": "2"
+    },
+    {
+        "name": "Lucas Martínez Quarta",
+        "age": "25",
+        "matches": "5",
+        "debut": "2019-09-06",
+        "team_id": "8",
+        "position_id": "2"
+    },
+    {
+        "name": "Nicolás Otamendi",
+        "age": "33",
+        "matches": "72",
+        "debut": "2009-05-20",
+        "team_id": "8",
+        "position_id": "2"
+    },
+    {
+        "name": "Germán Pezzella",
+        "age": "29",
+        "matches": "16",
+        "debut": "2017-11-11",
+        "team_id": "8",
+        "position_id": "2"
+    },
+    {
+        "name": "Nicolás Tagliafico",
+        "age": "28",
+        "matches": "28",
+        "debut": "2017-06-09",
+        "team_id": "8",
+        "position_id": "3"
+    },
+    {
+        "name": "Marcos Acuña",
+        "age": "29",
+        "matches": "28",
+        "debut": "2016-11-16",
+        "team_id": "8",
+        "position_id": "3"
+    },
+    {
+        "name": "Gonzalo Montiel",
+        "age": "24",
+        "matches": "9",
+        "debut": "2019-03-22",
+        "team_id": "8",
+        "position_id": "4"
+    },
+    {
+        "name": "Nahuel Molina",
+        "age": "23",
+        "matches": "1",
+        "debut": "2021-06-04",
+        "team_id": "8",
+        "position_id": "4"
+    },
+    {
+        "name": "Guido Rodríguez",
+        "age": "27",
+        "matches": "10",
+        "debut": "2017-06-09",
+        "team_id": "8",
+        "position_id": "5"
+    },
+    {
+        "name": "Leandro Paredes",
+        "age": "26",
+        "matches": "27",
+        "debut": "2017-06-13",
+        "team_id": "8",
+        "position_id": "5"
+    },
+    {
+        "name": "Rodrigo de Paul",
+        "age": "27",
+        "matches": "20",
+        "debut": "2018-10-11",
+        "team_id": "8",
+        "position_id": "5"
+    },
+    {
+        "name": "Giovani Lo Celso",
+        "age": "25",
+        "matches": "21",
+        "debut": "2017-11-11",
+        "team_id": "8",
+        "position_id": "5"
+    },
+    {
+        "name": "Exequiel Palacios",
+        "age": "22",
+        "matches": "6",
+        "debut": "2018-09-08",
+        "team_id": "8",
+        "position_id": "5"
+    },
+    {
+        "name": "Nicolás Domínguez",
+        "age": "22",
+        "matches": "7",
+        "debut": "2019-09-06",
+        "team_id": "8",
+        "position_id": "5"
+    },
+    {
+        "name": "Lucas Ocampos",
+        "age": "26",
+        "matches": "8",
+        "debut": "2019-10-09",
+        "team_id": "8",
+        "position_id": "7"
+    },
+    {
+        "name": "Nicolás González",
+        "age": "23",
+        "matches": "5",
+        "debut": "2019-10-13",
+        "team_id": "8",
+        "position_id": "7"
+    },
+    {
+        "name": "Lionel Messi",
+        "age": "33",
+        "matches": "143",
+        "debut": "2005-08-17",
+        "team_id": "8",
+        "position_id": "8"
+    },
+    {
+        "name": "Ángel Di María",
+        "age": "33",
+        "matches": "105",
+        "debut": "2008-09-06",
+        "team_id": "8",
+        "position_id": "8"
+    },
+    {
+        "name": "Julián Álvarez",
+        "age": "21",
+        "matches": "1",
+        "debut": "2021-06-04",
+        "team_id": "8",
+        "position_id": "8"
+    },
+    {
+        "name": "Ángel Correa",
+        "age": "26",
+        "matches": "13",
+        "debut": "2015-09-05",
+        "team_id": "8",
+        "position_id": "9"
+    },
+    {
+        "name": "Joaquín Correa",
+        "age": "26",
+        "matches": "5",
+        "debut": "2017-06-09",
+        "team_id": "8",
+        "position_id": "9"
+    },
+    {
+        "name": "Papu Gómez",
+        "age": "33",
+        "matches": "5",
+        "debut": "2017-06-13",
+        "team_id": "8",
+        "position_id": "9"
+    },
+    {
+        "name": "Lautaro Martínez",
+        "age": "23",
+        "matches": "20",
+        "debut": "2018-03-27",
+        "team_id": "8",
+        "position_id": "10"
+    },
+    {
+        "name": "Lucas Alario",
+        "age": "28",
+        "matches": "9",
+        "debut": "2016-09-02",
+        "team_id": "8",
+        "position_id": "10"
+    },
+    {
+        "name": "Sergio Agüero",
+        "age": "33",
+        "matches": "97",
+        "debut": "2006-09-02",
+        "team_id": "8",
+        "position_id": "10"
+    },
+    {
+        "name": "Fernando Muslera",
+        "age": "34",
+        "matches": "118",
+        "debut": "2009-10-11",
+        "team_id": "9",
+        "position_id": "1"
+    },
+    {
+        "name": "Martín Campaña",
+        "age": "32",
+        "matches": "9",
+        "debut": "2016-05-28",
+        "team_id": "9",
+        "position_id": "1"
+    },
+    {
+        "name": "José María Giménez",
+        "age": "26",
+        "matches": "62",
+        "debut": "2013-09-11",
+        "team_id": "9",
+        "position_id": "2"
+    },
+    {
+        "name": "Ronald Araújo",
+        "age": "22",
+        "matches": "1",
+        "debut": "2020-10-13",
+        "team_id": "9",
+        "position_id": "2"
+    },
+    {
+        "name": "Sebastián Coates",
+        "age": "30",
+        "matches": "40",
+        "debut": "2011-06-24",
+        "team_id": "9",
+        "position_id": "2"
+    },
+    {
+        "name": "Diego Godín",
+        "age": "35",
+        "matches": "141",
+        "debut": "2005-10-26",
+        "team_id": "9",
+        "position_id": "2"
+    },
+    {
+        "name": "Martín Cáceres",
+        "age": "34",
+        "matches": "104",
+        "debut": "2007-09-12",
+        "team_id": "9",
+        "position_id": "2"
+    },
+    {
+        "name": "Matías Viña",
+        "age": "23",
+        "matches": "11",
+        "debut": "2019-09-07",
+        "team_id": "9",
+        "position_id": "3"
+    },
+    {
+        "name": "Giovanni González",
+        "age": "26",
+        "matches": "10",
+        "debut": "2019-03-22",
+        "team_id": "9",
+        "position_id": "4"
+    },
+    {
+        "name": "Lucas Torreira",
+        "age": "25",
+        "matches": "28",
+        "debut": "2018-03-23",
+        "team_id": "9",
+        "position_id": "5"
+    },
+    {
+        "name": "Federico Valverde",
+        "age": "22",
+        "matches": "24",
+        "debut": "2017-09-06",
+        "team_id": "9",
+        "position_id": "5"
+    },
+    {
+        "name": "Rodrigo Bentancur",
+        "age": "23",
+        "matches": "34",
+        "debut": "2017-10-05",
+        "team_id": "9",
+        "position_id": "5"
+    },
+    {
+        "name": "Nahitan Nández",
+        "age": "25",
+        "matches": "36",
+        "debut": "2015-09-09",
+        "team_id": "9",
+        "position_id": "5"
+    },
+    {
+        "name": "Matías Vecino",
+        "age": "29",
+        "matches": "43",
+        "debut": "2016-03-26",
+        "team_id": "9",
+        "position_id": "5"
+    },
+    {
+        "name": "Fernando Gorriarán",
+        "age": "26",
+        "matches": "1",
+        "debut": "2021-06-09",
+        "team_id": "9",
+        "position_id": "5"
+    },
+    {
+        "name": "Nicolás De La Cruz",
+        "age": "24",
+        "matches": "5",
+        "debut": "2020-10-09",
+        "team_id": "9",
+        "position_id": "6"
+    },
+    {
+        "name": "Facundo Torres",
+        "age": "21",
+        "matches": "2",
+        "debut": "2021-06-04",
+        "team_id": "9",
+        "position_id": "7"
+    },
+    {
+        "name": "Brian Rodríguez",
+        "age": "21",
+        "matches": "10",
+        "debut": "2019-09-07",
+        "team_id": "9",
+        "position_id": "8"
+    },
+    {
+        "name": "Luis Suárez",
+        "age": "34",
+        "matches": "118",
+        "debut": "2007-02-07",
+        "team_id": "9",
+        "position_id": "10"
+    },
+    {
+        "name": "Jonathan Rodríguez",
+        "age": "27",
+        "matches": "26",
+        "debut": "2014-10-10",
+        "team_id": "9",
+        "position_id": "10"
+    },
+    {
+        "name": "Kasper Schmeichel",
+        "age": "34",
+        "matches": "65",
+        "debut": "2013-02-06",
+        "team_id": "10",
+        "position_id": "1"
+    },
+    {
+        "name": "Frederik Rönnow",
+        "age": "28",
+        "matches": "8",
+        "debut": "2016-08-31",
+        "team_id": "10",
+        "position_id": "1"
+    },
+    {
+        "name": "Jonas Lössl",
+        "age": "32",
+        "matches": "1",
+        "debut": "2016-03-29",
+        "team_id": "10",
+        "position_id": "1"
+    },
+    {
+        "name": "Andreas Christensen",
+        "age": "25",
+        "matches": "40",
+        "debut": "2015-06-08",
+        "team_id": "10",
+        "position_id": "2"
+    },
+    {
+        "name": "Joachim Andersen",
+        "age": "25",
+        "matches": "5",
+        "debut": "2019-10-15",
+        "team_id": "10",
+        "position_id": "2"
+    },
+    {
+        "name": "Jannik Vestergaard",
+        "age": "28",
+        "matches": "22",
+        "debut": "2013-08-14",
+        "team_id": "10",
+        "position_id": "2"
+    },
+    {
+        "name": "Simon Kjaer",
+        "age": "32",
+        "matches": "107",
+        "debut": "2009-06-06",
+        "team_id": "10",
+        "position_id": "2"
+    },
+    {
+        "name": "Zanka",
+        "age": "31",
+        "matches": "35",
+        "debut": "2008-11-19",
+        "team_id": "10",
+        "position_id": "2"
+    },
+    {
+        "name": "Nicolai Boilesen",
+        "age": "29",
+        "matches": "20",
+        "debut": "2011-08-10",
+        "team_id": "10",
+        "position_id": "3"
+    },
+    {
+        "name": "Joakim Maehle",
+        "age": "24",
+        "matches": "10",
+        "debut": "2020-09-05",
+        "team_id": "10",
+        "position_id": "4"
+    },
+    {
+        "name": "Daniel Wass",
+        "age": "32",
+        "matches": "30",
+        "debut": "2011-02-09",
+        "team_id": "10",
+        "position_id": "4"
+    },
+    {
+        "name": "Jens Stryger Larsen",
+        "age": "30",
+        "matches": "35",
+        "debut": "2016-08-31",
+        "team_id": "10",
+        "position_id": "4"
+    },
+    {
+        "name": "Thomas Delaney",
+        "age": "29",
+        "matches": "54",
+        "debut": "2013-10-15",
+        "team_id": "10",
+        "position_id": "5"
+    },
+    {
+        "name": "Pierre-Emile Höjbjerg",
+        "age": "25",
+        "matches": "41",
+        "debut": "2014-05-28",
+        "team_id": "10",
+        "position_id": "5"
+    },
+    {
+        "name": "Mathias Jensen",
+        "age": "25",
+        "matches": "6",
+        "debut": "2020-10-07",
+        "team_id": "10",
+        "position_id": "5"
+    },
+    {
+        "name": "Christian Nörgaard",
+        "age": "27",
+        "matches": "4",
+        "debut": "2020-09-08",
+        "team_id": "10",
+        "position_id": "5"
+    },
+    {
+        "name": "Anders Christiansen",
+        "age": "31",
+        "matches": "4",
+        "debut": "2013-01-31",
+        "team_id": "10",
+        "position_id": "5"
+    },
+    {
+        "name": "Christian Eriksen",
+        "age": "29",
+        "matches": "108",
+        "debut": "2010-03-03",
+        "team_id": "10",
+        "position_id": "6"
+    },
+    {
+        "name": "Mikkel Damsgaard",
+        "age": "20",
+        "matches": "3",
+        "debut": "2020-11-11",
+        "team_id": "10",
+        "position_id": "7"
+    },
+    {
+        "name": "Robert Skov",
+        "age": "25",
+        "matches": "10",
+        "debut": "2019-06-10",
+        "team_id": "10",
+        "position_id": "7"
+    },
+    {
+        "name": "Andreas Skov Olsen",
+        "age": "21",
+        "matches": "6",
+        "debut": "2020-10-07",
+        "team_id": "10",
+        "position_id": "7"
+    },
+    {
+        "name": "Yussuf Poulsen",
+        "age": "26",
+        "matches": "54",
+        "debut": "2014-10-11",
+        "team_id": "10",
+        "position_id": "10"
+    },
+    {
+        "name": "Kasper Dolberg",
+        "age": "23",
+        "matches": "26",
+        "debut": "2016-11-11",
+        "team_id": "10",
+        "position_id": "10"
+    },
+    {
+        "name": "Martin Braithwaite",
+        "age": "30",
+        "matches": "50",
+        "debut": "2013-06-05",
+        "team_id": "10",
+        "position_id": "10"
+    },
+    {
+        "name": "Andreas Cornelius",
+        "age": "28",
+        "matches": "30",
+        "debut": "2012-09-08",
+        "team_id": "10",
+        "position_id": "10"
+    },
+    {
+        "name": "Jonas Wind",
+        "age": "22",
+        "matches": "7",
+        "debut": "2020-10-07",
+        "team_id": "10",
+        "position_id": "10"
     }
 ]

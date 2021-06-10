@@ -21,7 +21,6 @@ use App\Models\Players;
 |
 */
 
-//Auth Routes
 Route::group(
     [
         'prefix' => 'auth'
@@ -44,7 +43,6 @@ Route::group(
     }
 );
 
-//Teams Routes
 Route::group(
     [
         'prefix' => 'teams',
@@ -53,16 +51,22 @@ Route::group(
     function () {
         Route::get('/', [TeamController::class, 'index']);
         Route::get('/{id}', [TeamController::class, 'show']);
-        Route::group(
-            [
-                'middleware' => 'scope:admin'
-            ],
-            function () {
-                Route::post('/new-team', [TeamController::class, 'store']);
-                Route::patch('/team/{id}', [TeamController::class, 'update']);
-                Route::delete('/team/{id}', [TeamController::class, 'destroy']);
-            }
-        );
+        Route::get('/team', [TeamController::class, 'teamName']);
+        Route::get('/confederation', [TeamController::class, 'teamConfederation']);
+        Route::get('/manager', [TeamController::class, 'teamManager']);
+    }
+);
+
+
+//Rutas posiciones
+Route::group(
+    [
+        'prefix' => 'positions',
+        'middleware' => 'auth:api'
+    ],
+    function () {
+        Route::get('/', [PositionController::class, 'index']);
+        Route::get('/position', [PositionController::class, 'positionName']);
     }
 );
 
@@ -81,14 +85,29 @@ Route::group(
     }
 );
 
-//Rutas players
+//Rutas competiciones
+Route::group(
+    [
+        'prefix' => 'competitions',
+        'middleware' => 'auth:api'
+    ],
+    function () {
+        Route::get('/', [CompetitionController::class, 'index']);
+        Route::get('/competition', [CompetitionController::class, 'competitionName']);
+        Route::get('/type', [CompetitionController::class, 'competitionType']);
+    }
+);
+
+//Rutas admin
 Route::group(
     [
         'prefix' => 'admin',
         'middleware' => ['auth:api', 'scope:admin']
     ],
     function () {
-
+        Route::post('/new-team', [TeamController::class, 'store']);
+        Route::patch('/team/{id}', [TeamController::class, 'update']);
+        Route::delete('/team/{id}', [TeamController::class, 'destroy']);
         Route::post('/new-player', [PlayerController::class, 'store']);
         Route::patch('/player/{id}', [PlayerController::class, 'update']);
         Route::delete('/player/{id}', [PlayerController::class, 'destroy']);
@@ -109,7 +128,7 @@ Route::group(
             [
                 'middleware' => 'scope:admin'
             ],
-            function () {
+            function(){
                 Route::post('/new-match', [MatchesController::class, 'store']);
                 Route::patch('/change-match/{id}', [MatchesController::class, 'update']);
                 Route::delete('/match/{id}', [MatchesController::class, 'destroy']);

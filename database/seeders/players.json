@@ -204,7 +204,6 @@
         "age": "25",
         "matches": "1",
         "debut": "2020-10-07",
-        "photo": "https://img.a.transfermarkt.technology/portrait/header/182906-1598303138.jpg?lm=1",
         "team_id": "2",
         "position_id": "1"
     },
@@ -213,7 +212,6 @@
         "age": "34",
         "matches": "123",
         "debut": "2008-11-19",
-        "photo": "https://img.a.transfermarkt.technology/portrait/header/17965-1465213375.jpg?lm=1",
         "team_id": "2",
         "position_id": "1"
     },

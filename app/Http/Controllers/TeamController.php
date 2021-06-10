@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Matches;
 use App\Models\Players;
 use App\Models\Teams;
 use Illuminate\Http\Request;
@@ -68,6 +69,7 @@ class TeamController extends Controller
     {
         $playerTeamId = $request->id;
         Players::where('team_id', $playerTeamId)->delete();
+        Matches::where()
         $teamData = Teams::destroy($playerTeamId);
 
         if (!$teamData) {

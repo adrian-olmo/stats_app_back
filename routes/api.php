@@ -8,6 +8,7 @@ use App\Http\Controllers\MatchesController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\PositionController;
 use App\Http\Controllers\TeamController;
+use App\Http\Controllers\UserController;
 use App\Models\Players;
 
 /*
@@ -128,11 +129,21 @@ Route::group(
             [
                 'middleware' => 'scope:admin'
             ],
-            function(){
+            function () {
                 Route::post('/new-match', [MatchesController::class, 'store']);
                 Route::patch('/change-match/{id}', [MatchesController::class, 'update']);
                 Route::delete('/match/{id}', [MatchesController::class, 'destroy']);
             }
         );
+    }
+);
+Route::group(
+    [
+        'prefix' => 'user',
+        'middleware' => 'auth:api'
+    ],
+    function () {
+        Route::get('/user/{id}', [UserController::class, 'show']);
+        Route::patch('/profile/{id}', [UserController::class, 'update']);
     }
 );

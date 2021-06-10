@@ -35,10 +35,8 @@ Route::group(
             ],
             function () {
                 Route::get('logout', [AuthController::class, 'logout']);
-                Route::get(
-                    '/user',
-                    [AuthController::class, 'getRole']
-                );
+                Route::get('/role', [AuthController::class, 'getRole']);
+                Route::get('/user', [AuthController::class, 'getUser']);
             }
         );
     }

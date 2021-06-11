@@ -51,7 +51,7 @@ class MatchesController extends Controller
             $match->local_team = $request->local_team;
         }
         if ($request->has('visitor_team')) {
-            $match->age = $request->age;
+            $match->visitor_team = $request->visitor_team;
         }
         if ($request->has('stadium')) {
             $match->stadium = $request->stadium;

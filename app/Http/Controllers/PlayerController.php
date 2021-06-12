@@ -24,9 +24,13 @@ class PlayerController extends Controller
 
     public function store(Request $request)
     {
-        $newPlayer = $request->all();
-        $player = Players::create($newPlayer);
-        return response()->json(['message' => 'Created succesfully'], 201);
+        try {
+            $newPlayer = $request->all();
+            $player = Players::create($newPlayer);
+            return response()->json(['message' => $player], 201);
+        } catch (\Error $error) {
+            return response()->json($error);
+        }
     }
 
     public function update(Request $request, $id)

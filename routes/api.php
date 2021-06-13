@@ -55,7 +55,7 @@ Route::group(
             ['middleware' => 'scope:admin'],
             function () {
                 Route::post('/new-team', [TeamController::class, 'store']);
-                Route::patch('/team/{id}', [TeamController::class, 'update']);
+                Route::patch('/change-team/{id}', [TeamController::class, 'update']);
                 Route::delete('/team/{id}', [TeamController::class, 'destroy']);
             }
         );
@@ -76,7 +76,7 @@ Route::group(
             ['middleware' => 'scope:admin'],
             function () {
                 Route::post('/new-player', [PlayerController::class, 'store']);
-                Route::patch('/player/{id}', [PlayerController::class, 'update']);
+                Route::patch('/change-player/{id}', [PlayerController::class, 'update']);
                 Route::delete('/player/{id}', [PlayerController::class, 'destroy']);
                 Route::get('/player/{id}', [PlayerController::class, 'findPlayer']);
             }
@@ -92,7 +92,6 @@ Route::group(
     ],
     function () {
         Route::get('/', [MatchesController::class, 'index']);
-        Route::get('/match/{id}', [MatchesController::class, 'findMatch']);
         Route::group(
             [
                 'middleware' => 'scope:admin'
@@ -101,6 +100,7 @@ Route::group(
                 Route::post('/new-match', [MatchesController::class, 'store']);
                 Route::patch('/change-match/{id}', [MatchesController::class, 'update']);
                 Route::delete('/match/{id}', [MatchesController::class, 'destroy']);
+                Route::get('/match/{id}', [MatchesController::class, 'findMatch']);
             }
         );
     }

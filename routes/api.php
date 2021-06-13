@@ -42,6 +42,7 @@ Route::group(
     }
 );
 
+//Rutas Equipos
 Route::group(
     [
         'prefix' => 'teams',
@@ -62,7 +63,7 @@ Route::group(
 );
 
 
-//Rutas jugadores
+//Rutas Jugadores
 Route::group(
     [
         'prefix' => 'players',
@@ -70,26 +71,16 @@ Route::group(
     ],
     function () {
         Route::get('/', [PlayerController::class, 'index']);
-        Route::get('/player', [PlayerController::class, 'playerName']);
-        Route::get('/player-position', [PlayerController::class, 'playerPosition']);
         Route::get('/player-team/{id}', [PlayerController::class, 'playerTeam']);
-        Route::get('/debut', [PlayerController::class, 'playerDebut']);
-    }
-);
-
-
-//Rutas admin
-Route::group(
-    [
-        'prefix' => 'admin',
-        'middleware' => ['auth:api', 'scope:admin']
-    ],
-    function () {
-
-        Route::post('/new-player', [PlayerController::class, 'store']);
-        Route::patch('/player/{id}', [PlayerController::class, 'update']);
-        Route::delete('/player/{id}', [PlayerController::class, 'destroy']);
-        Route::get('/player/{id}', [PlayerController::class, 'findPlayer']);
+        Route::group(
+            ['middleware' => 'scope:admin'],
+            function () {
+                Route::post('/new-player', [PlayerController::class, 'store']);
+                Route::patch('/player/{id}', [PlayerController::class, 'update']);
+                Route::delete('/player/{id}', [PlayerController::class, 'destroy']);
+                Route::get('/player/{id}', [PlayerController::class, 'findPlayer']);
+            }
+        );
     }
 );
 

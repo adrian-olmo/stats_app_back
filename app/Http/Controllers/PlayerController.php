@@ -75,35 +75,6 @@ class PlayerController extends Controller
     }
 
     //Funciones Propias
-    public function playerName(Request $request)
-    {
-        $playerName = $request->playerName;
-
-        try {
-
-            $result = Players::select('players.*', 'teams.name as team', 'positions.name as position')
-                ->join('teams', 'players.team_id', 'teams.id')
-                ->join('positions', 'players.position_id', 'positions.id')
-                ->where('players.name', 'like', '%' . $playerName . '%')
-                ->get();
-
-            return response()->json($result);
-        } catch (\Exception $th) {
-
-            return response()->json([$th, 409]);
-        }
-    }
-
-    public function playerPosition(Request $request)
-    {
-        $playerPosition = $request->playerPosition;
-
-        $result = Players::select('players.*', 'positions.name as positon')
-            ->join('positions', 'players.position_id', 'positions.id')
-            ->where('positions.name', 'like', '%' . $playerPosition . '%')
-            ->get();
-        return response()->json($result);
-    }
 
     public function playerTeam($id)
     {
@@ -113,15 +84,6 @@ class PlayerController extends Controller
             ->join('teams', 'players.team_id', 'teams.id')
             ->join('positions', 'players.position_id', 'positions.id')
             ->where('teams.id',  $playerTeam)
-            ->get();
-        return response()->json($result);
-    }
-
-    public function playerDebut(Request $request)
-    {
-        $playerDebut = $request->playerDebut;
-
-        $result = Players::where('debut', 'like', '%' . $playerDebut . '%')
             ->get();
         return response()->json($result);
     }

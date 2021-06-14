@@ -27,7 +27,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
         $userId = $request->user()->id;
         $user = User::findOrFail($id)->where('id', $userId)->first;

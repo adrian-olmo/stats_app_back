@@ -30,7 +30,7 @@ class UserController extends Controller
     public function update(Request $request)
     {
         $userId = $request->user()->id;
-        $user = User::findOrFail($id)->where('id', $userId)->first;
+        $user = User::findOrFail($userId)->where('id', $userId)->first;
 
         if ($request->has('name')) {
             $user->name = $request->name;

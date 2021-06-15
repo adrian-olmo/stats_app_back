@@ -27,7 +27,7 @@ class PlayerController extends Controller
         try {
             $newPlayer = $request->all();
             $player = Players::create($newPlayer);
-            return response()->json(['message' => $player], 201);
+            return response()->json(['message' => 'Created Succesfully'], 201);
         } catch (\Error $error) {
             return response()->json($error);
         }
@@ -57,7 +57,7 @@ class PlayerController extends Controller
         }
 
         $player->save();
-        return response()->json(['message' => "Update Succefuly"], 205);
+        return response()->json(['message' => 'Update Succefuly'], 205);
     }
 
     public function destroy($id)
@@ -65,7 +65,7 @@ class PlayerController extends Controller
         $playerDel = Players::findOrFail($id);
         $playerDel->delete();
 
-        return response()->json(['message' => "Delete Succefuly"], 202);
+        return response()->json(['message' => 'Delete Succefuly'], 202);
     }
 
     public function findPlayer($id)

@@ -52,7 +52,7 @@ class TeamController extends Controller
             }
 
             $team->save();
-            return response()->json(['message' => "Update Succefuly"], 205);
+            return response()->json(['message' => 'Update Succefuly'], 205);
         } catch (\Exception $error) {
             return response()->json($error, 409);
         }
@@ -62,7 +62,7 @@ class TeamController extends Controller
     {
         $newTeam = $request->all();
         $team = Teams::create($newTeam);
-        return response()->json(['message' => 'Created succesfully'], 201);
+        return response()->json(['message' => 'Created Succesfully'], 201);
     }
 
     public function destroy(Request $request)

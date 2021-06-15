@@ -43,6 +43,6 @@ class UserController extends Controller
         }
 
         $user->save();
-        return response()->json(['Updated Succesfully'], 201);
+        return response()->json(['message' => 'Updated Succesfully'], 201);
     }
 }
